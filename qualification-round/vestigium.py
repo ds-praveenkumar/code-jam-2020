@@ -31,7 +31,7 @@ if __name__ == "__main__":
     seq1 = np.array([2, 2, 2, 2, 2, 3, 2, 3, 2, 2, 2, 3, 2, 2, 2, 2]).reshape((4,4)) 
     seq2 = np.array([2, 1, 3, 1, 3, 2, 1, 2, 3]).reshape((3,3)) 
     seq3 = np.array([1, 2, 3, 4, 2, 1, 4,3, 3,4,1,2,4,3,2,1]).reshape((4,4))
-    ves = vestiginum(arr=seq2)
+    ves = vestiginum(arr=seq3)
     ves.print_matrix()
     ves.trace()
 
