@@ -28,13 +28,11 @@ class ParentingPartenering:
                 possiblity_mat.append(0)
         print(possiblity_mat)
 
-
-      
             
 
 
 if __name__ == "__main__":
-    slot1 = [1,3,4,6]
+    slot1 = [1,40,4,6]
 
     pp = ParentingPartenering()
     pp.parenting_partnering(slot1)

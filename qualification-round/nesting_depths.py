@@ -26,7 +26,7 @@ class nesting_depths:
 
 
 if __name__ == "__main__":
-    digits_input = [  "111000"] # "101", "0000",
+    digits_input = ["111000"] # "101", "0000",
     for items in  digits_input:
         nd = nesting_depths(digits=items)
         nd.nesting_depths()
