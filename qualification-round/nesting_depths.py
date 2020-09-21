@@ -16,8 +16,6 @@ class nesting_depths:
                 s_.append('('*val)
                 s_.append(str(val))
                 s_.append(')'* val) 
-                
-
             else:
                 s_.append(str(val))
                 previous_digit = val

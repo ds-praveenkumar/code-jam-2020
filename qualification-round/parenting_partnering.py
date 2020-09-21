@@ -19,20 +19,23 @@ class ParentingPartenering:
     
     def parenting_partnering(self, slots):
         slots_len = len(slots)
-        possiblity_mat = []
+        possiblity_mat = [] # list of parents in the sequence 
+        available_parents = ["S", "J"]  # list of available parents
         # case 1 no overlap
         for val1, val2 in zip(slots[1:], slots[2:]):
-            if val1 <= val2:
-                possiblity_mat.append(1)
+            print(val1, val2)
+            if val1 <= val2 :
+                possiblity_mat.append(available_parents[1])
             elif val1 > val2:
-                possiblity_mat.append(0)
-        print(possiblity_mat)
-
+                possiblity_mat.append(available_parents[0])
+            else :
+                possiblity_mat.append(available_parents[0])
+            print(possiblity_mat)
             
 
 
 if __name__ == "__main__":
-    slot1 = [1,40,4,6]
+    slot1 = [360, 480,420, 540, 600, 660]
 
     pp = ParentingPartenering()
     pp.parenting_partnering(slot1)
