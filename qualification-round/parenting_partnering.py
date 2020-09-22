@@ -30,6 +30,7 @@ class ParentingPartenering:
                 possiblity_mat.append(available_parents[0])
             else :
                 possiblity_mat.append(available_parents[0])
+                
             print(possiblity_mat)
             
 
