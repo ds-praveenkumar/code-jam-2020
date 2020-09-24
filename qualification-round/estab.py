@@ -12,9 +12,13 @@ class ESTAB:
         self.t = int(input())
         self.b = int(input())
         for val in range(self.b):
-            self.array.append(int(input()))
+            _i = int(input())
+            self.array.append(_i)
 
         print(self.array)
+    
+    def complement_array(self):
+        pass
 
     
 if __name__ == "__main__":
